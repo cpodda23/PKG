@@ -1,6 +1,6 @@
-# HDT
+# PKG Construction
 
-This project builds a **Knowledge Graph (KG)** from CSV files using standard ontologies (e.g., FOAF, Schema.org, SAREF, SOSA, PROV, EMO) and Python libraries for RDF and NLP processing. It supports multiple mapping strategies to semantically enrich raw data into structured RDF.
+This part of the project builds a **Knowledge Graph (KG)** from CSV files using standard ontologies (e.g., FOAF, Schema.org, SAREF, SOSA, PROV, EMO) and Python libraries. It supports multiple mapping strategies to semantically enrich raw data into structured RDF.
 
 ## Main Files
 
