@@ -33,6 +33,8 @@ Two example CSV files are used across the scripts:
 
 - `ontologies_test_1.csv` — used by `integration2.py`
 - `ontologies_test_2.csv` — used by `ontologies.py` and `ontologies2.py`
+- `extracted_scene0_sentences.csv` (from 0 to 119) — used by `csv_to_ttl.py`
+
 
 Update the file paths in the scripts if necessary.
 
@@ -44,7 +46,7 @@ Each script exports a Turtle (`.ttl`) RDF file:
 - `knowledge_graph_from_csv.ttl`
 - `knowledge_graph_dynamic.ttl`
 - `output.ttl`
-- `output_scene0.ttl` — generated from `csv_to_ttl.py`
+- `output_scene0.ttl` (from 0 to 119) — generated from `csv_to_ttl.py`
 
 
 You can view these using tools like [RDF Grapher](https://www.ldf.fi/service/rdf-grapher).
