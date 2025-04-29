@@ -8,6 +8,8 @@ This part of the project builds a **Knowledge Graph (KG)** from CSV files using 
 - `integration2.py`: loads a CSV (subject, predicate, object) and generates an RDF graph.
 - `ontologies.py`: loads external ontologies and builds a dynamic KG from an enriched CSV file.
 - `ontologies2.py`: uses advanced semantic matching (lemmatization, synonyms, keyword categories) to map predicates and concepts to ontology terms.
+- `csv_to_ttl.py`: extracts RDF triples from CSV files and generates a semantic knowledge graph using FOAF, Schema.org, and PROV ontologies.
+
 
 ## Requirements
 
@@ -42,6 +44,8 @@ Each script exports a Turtle (`.ttl`) RDF file:
 - `knowledge_graph_from_csv.ttl`
 - `knowledge_graph_dynamic.ttl`
 - `output.ttl`
+- `output_scene0.ttl` — generated from `csv_to_ttl.py`
+
 
 You can view these using tools like [RDF Grapher](https://www.ldf.fi/service/rdf-grapher).
 
