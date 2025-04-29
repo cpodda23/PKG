@@ -14,12 +14,6 @@ This part of the project builds a **Knowledge Graph (KG)** from CSV files using 
 Install the required packages using:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Or manually:
-
-```bash
 pip install rdflib pandas nltk
 ```
 
